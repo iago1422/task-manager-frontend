@@ -1,0 +1,66 @@
+/* Estilos para o formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+label {
+  font-weight: bold;
+  color: #666;
+}
+
+/* Estilo dos inputs e select */
+input,
+select {
+  width: 70%; /* Define a largura dos inputs e select */
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px; /* Bordas arredondadas */
+  border: 1px solid #ccc; /* Cor da borda neutra */
+  background-color: #f8f9fa; /* Fundo claro */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Efeito de leve profundidade */
+}
+
+input:focus,
+select:focus {
+  border-color: #f05a28; /* Cor laranja no foco */
+  box-shadow: 0 0 8px rgba(240, 90, 40, 0.3); /* Sombra laranja suave no foco */
+  outline: none; /* Remove o contorno padrão */
+}
+
+/* Estilo do placeholder */
+input::placeholder,
+select::placeholder {
+  color: #999; /* Cor mais clara para o placeholder */
+}
+
+/* Ajustes para o formulário */
+form div {
+  display: flex;
+  justify-content: space-between; /* Distribui os elementos dentro do div */
+  align-items: center; /* Alinha verticalmente os elementos */
+  margin-bottom: 0.2rem; /* Espaço entre os inputs */
+}
+
+label {
+  font-weight: bold;
+  color: #666;
+  margin-right: 10px; /* Espaço entre o label e o input */
+  flex: 1; /* O label ocupará a mesma largura do input */
+}
+
+button {
+  background-color: #f05a28; /* Cor principal do botão */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: #d1491e;
+}

@@ -1,0 +1,17 @@
+/* Lista de tarefas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #f05a28; /* Borda colorida nas tarefas */
+  border-radius: 5px;
+}
+
+li:nth-child(even) {
+  background-color: #f1f1f1;
+}
